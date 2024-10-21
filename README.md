@@ -2,7 +2,14 @@
 
 An aesthetically pleasing Tic-Tac-Toe game for Android, built with Kotlin. This application allows users to play a classic Tic-Tac-Toe game against each other. The game maintains a record of the outcomes of the last five games, displaying the results on a dedicated results activity page.
 
-![Tic-Tac-Toe App](app_screenshot.png)
+
+![image](https://github.com/user-attachments/assets/f0156844-5ca8-4fd3-8764-a257d931d422)
+
+![image](https://github.com/user-attachments/assets/7ac7e6a6-41b0-4d3a-aa19-5029da73b4b1)
+
+
+![image](https://github.com/user-attachments/assets/e172301f-55f8-40a6-a2c3-cab970fe42b5)
+
 
 ## Table of Contents
 
@@ -76,5 +83,35 @@ The app follows the **Model-View-ViewModel (MVVM)** architecture pattern, ensuri
 - **ViewModel**: Acts as an intermediary between the Model and the View, handling user inputs and updating the UI accordingly.
 
 ### Package Structure
+
+com.example.tictactoe ├── model │ ├── Game.kt │ ├── Player.kt ├── view │ ├── MainActivity.kt │ ├── ResultsActivity.kt │ ├── activity_main.xml │ ├── activity_results.xml ├── viewmodel │ ├── GameViewModel.kt │ ├── ResultsViewModel.kt └── utils ├── Constants.kt
+
+
+- **model**: Contains data classes for game logic and player representation.
+- **view**: Includes activity classes and XML layouts for the user interface.
+- **viewmodel**: Manages the UI-related data in a lifecycle-conscious way.
+- **utils**: Utility classes for shared constants and functions.
+
+## Customization
+
+You can customize various aspects of the app, such as:
+
+- **Theme and Colors**: Modify the app's colors in `res/values/colors.xml` to match your desired aesthetic.
+- **Icons and Images**: Update the icons and images in the `res/drawable` folder to personalize the look.
+- **Game Rules**: Adjust the win conditions or add new features like score tracking across multiple sessions in `Game.kt`.
+
+## Contributing
+
+We welcome contributions to enhance the Tic-Tac-Toe app. Here’s how you can contribute:
+
+1. **Fork the repository**.
+2. **Create a new branch**:
+   ```bash
+    git checkout -b feature-branch
+    git commit -m 'Add new feature'
+    git push origin feature-branch
+    This formatting follows the typical structure of a GitHub README, with clear sections, bullet points, and code formatting for commands. Let me know if you need any further modifications!
+
+
 
 
