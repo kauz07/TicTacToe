@@ -3,9 +3,7 @@
 An aesthetically pleasing Tic-Tac-Toe game for Android, built with Kotlin. This application allows users to play a classic Tic-Tac-Toe game against each other. The game maintains a record of the outcomes of the last five games, displaying the results on a dedicated results activity page.
 
 
-![image](https://github.com/user-attachments/assets/f0156844-5ca8-4fd3-8764-a257d931d422)
-
-![image](https://github.com/user-attachments/assets/7ac7e6a6-41b0-4d3a-aa19-5029da73b4b1)
+![image](https://github.com/user-attachments/assets/f0156844-5ca8-4fd3-8764-a257d931d422) ![image](https://github.com/user-attachments/assets/7ac7e6a6-41b0-4d3a-aa19-5029da73b4b1)
 
 
 ![image](https://github.com/user-attachments/assets/e172301f-55f8-40a6-a2c3-cab970fe42b5)
